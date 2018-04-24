@@ -1,0 +1,59 @@
+@import 'themeColors';
+$theme-font: "Verdana", Times, serif;
+
+body {
+  font-family: $theme-font;
+  color: $themeColor-Dark
+}
+
+.Layout {
+  min-width: 640px;
+}
+
+.fret {
+  display: inline-block;
+  border-bottom: 2px grey solid;
+  width: 4%;
+  text-align: center;
+  padding:4px 0px;
+  text-transform: uppercase;
+}
+
+.lowlight{
+  background-color:$fretboard-background;
+}
+
+.highlight{
+  background-color:$fretboard-highlight;
+}
+
+.root{
+  background-color:$fretboard-root;
+}
+
+.fret-label {
+  display: inline-block;
+  border-bottom: 2px grey solid;
+  width: 4%;
+  text-align: center;
+  padding:4px 0px;
+  text-transform: uppercase;
+}
+
+.options {
+  padding:5px;
+}
+
+.options select{
+  margin:10px;
+}
+
+.navigation {
+
+}
+
+.fretboard {
+  background-color: $fretboard-background;
+  border-left: 2px grey solid;
+  border-right: 2px grey solid;
+}
